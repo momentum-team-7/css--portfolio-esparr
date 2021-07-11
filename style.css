@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    background-color: whitesmoke
+}
+
+p {
+    font: normal normal 200 10px 2em;
+}
+
+hr {
+    border: 1px;
+    border-top: darkgray solid;
+    margin-top: 10px;
+    max-width: 500px;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:hover {
+    color: indianred;
+}
+
+.name-logo {
+    font-size: 30px;
+    margin: 50px 0 15px 50px;                 
+    text-transform: uppercase;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: flex-start;
+    flex-grow: 1;
+    align-items: center;
+    background-color: darkgray;
+    margin: 0 0 50px 0;
+    padding: 25px 0 25px 50px;
+}
+
+.current {
+    color: black;
+}
+
+.nav-h4 {
+    margin: 0 20px 0 0;
+    padding: 0 5px 0 0;
+} 
+
+.about {
+    max-width: 100%;
+    height: auto;
+}
+
+.about-card {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: stretch;
+    max-width: 100%;
+}
+
+.about-img {
+    flex-grow: 1;
+    max-width: 500px;
+    min-width: 15%;
+    height: fit-content;
+    margin: 0 0 40px 50px;
+}
+
+.about-text {
+    flex-grow: 2;
+    white-space: wrap;
+    margin: 0 50px 40px 50px;
+}
+
+.about-h1 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.about-h4 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 10px 0 0 0;
+}
+
+.projects-head-margin {
+    margin: 40px 0 0 0;
+}
+
+.about-p {
+    margin: 20px 0 0 0;
+    max-width: 500px;
+}
+
+.imageblock {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.image-main-projects {
+    flex-flow: 1;
+    max-width: 200px;
+    margin: 0 25px 10px 0;
+}
+
+.footer {
+    font-size: 9px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+/*
+@media (max-width: 800px) {
+    .name-logo {
+        display: flex;
+        justify-content: center;
+        margin: 50px 0 30px 0;
+    }
+    
+    .navbar {
+        justify-content: center;
+    }
+
+    .about-img {
+        margin: 0 0 40px 0px;
+    }
+
+    .about-p {
+        margin: 20px 0 0 0;
+        max-width: 300px;
+} */
